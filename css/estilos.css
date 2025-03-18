@@ -11,7 +11,7 @@
 
 body{
     background-color: rgb(244, 252, 200);
-    height: 50vh; /*unidad viewport heigh*/
+    height: 100vh; /*unidad viewport heigh*/
     width:100vw; /*unidad viewport heigh*/
 }
 .contenedor{
@@ -22,7 +22,11 @@ body{
 }
  
 main{
-    height:90%;
+    height:100%;
     width:60%;
     background-color: aliceblue;
+}
+aside{ 
+    height:100%;
+    width:40%;
 }
