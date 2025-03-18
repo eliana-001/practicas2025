@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+body{
+    background-color: rgb(244, 252, 200);
+    height: 50vh; /*unidad viewport heigh*/
+    width:100vw; /*unidad viewport heigh*/
+}
+.contenedor{
+    height:100%;
+    width:100%;
+    background-color: rgb(182, 204, 146);
+    display: flex;
+}
+ 
+main{
+    height:90%;
+    width:60%;
+    background-color: aliceblue;
+}
