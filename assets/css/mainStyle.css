@@ -1,0 +1,32 @@
+
+:root {
+    --color-principal: rgb(155, 106, 108);
+    --color-secundario: rgb(226, 180, 189);
+    --color-blanco: rgb(255, 255, 255);
+    --color-gris: rgb(147, 168, 172);
+    --color-oscuro: rgb(66, 75, 84);
+  
+    --fuente-principal: 'Arial', sans-serif;
+  }
+  
+  body {
+    font-family: var(--fuente-principal);
+    color: var(--color-oscuro);
+    background-color: var(--color-blanco);
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    color: var(--color-principal);
+  }
+  
+  button {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
